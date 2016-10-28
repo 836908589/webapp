@@ -12,7 +12,10 @@
     background: url("../../img/index/bg.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: 0%;
+    background-position: 0% 0%;
+    position: relative;
+    left: 0px;
+    top: 0px;
     display: inline-block;
 }
 
