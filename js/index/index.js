@@ -10,6 +10,7 @@ resizeH();
 $(window).resize(function () {
    resizeH();
 })
+/*检测IE6,7,8*/
 $(function () {
    var browser=navigator.appName
    var b_version=navigator.appVersion
@@ -25,7 +26,6 @@ $(function () {
    }
    else if(browser=="Microsoft Internet Explorer" && trim_Version=="MSIE8.0")
    {
-      alert("aaaa")
       document.write("你的IE浏览器版本过低，为了您更好的体验请现代浏览器（谷歌浏览器 (Chrome)，火狐 (Firefox)4.0+，Internet Explorer 9.0+)打开。");
    }
 
