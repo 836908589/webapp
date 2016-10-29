@@ -1,0 +1,165 @@
+.a {
+    border: 1px solid gold;
+}
+.c{
+    border: 1px solid blue;
+}
+.b {
+    border: 1px solid red;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Letter Gothic Std";
+    font-size: 12px;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+.center_title{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    left: 10%;
+    position: absolute;
+    z-index: 2;
+}
+.head {
+    width: 100%;
+    height: auto;
+    z-index: 4;
+    padding-top: 3%;
+    clear: both;
+    display: inline-block;
+}
+
+.head > h1{
+    width: 20%;
+    min-width: 120px;
+    height: auto;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2rem;
+    float: left;
+    padding-top: 1rem;
+}
+
+.head > figure {
+    width: 10%;
+    min-width: 128px;
+    height: auto;
+    text-align: center;
+    float: right;
+    margin-top: 0.8rem;
+}
+
+.head > figure > img {
+    width: 25%;
+    min-width: 30px;
+    max-width: 30px;
+    height: auto;
+    display:block;
+    float: left;
+}
+
+.head > figure > span {
+    width: 60%;
+    height: auto;
+    margin: 8px 10px 4px 0px;
+    font-size: 18px;
+    display:block;
+    float: right;
+}
+
+.banner_mp4 {
+    width: 100%;
+    height: auto;
+}
+.title{
+    width: 100%;
+    height: auto;
+    margin: 6% 2% auto 2%;
+}
+.title>strong{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 14rem;
+    color: #000;
+    display: inline-block;
+    text-transform: capitalize;
+    font-family: "Letter Gothic Std";
+}
+.title>h2{
+    font-family: "Letter Gothic Std";
+    font-size: 10rem;
+    font-weight: 500;
+    text-align: center;
+}
+.oval{
+    width: 20px;
+    height: 40px;
+    border-radius: 10px;
+    border: 3px solid #000;
+    margin-left: 49%;
+    margin-top: 8rem;
+}
+.drop{
+    width: 0px;
+    height: 7px;
+    list-style: none;
+    border: 2px solid black;
+    border-radius: 8px;
+    display: block;
+    margin-left: 42%;
+    margin-top: 6px;
+    animation: dropmove 2s infinite;
+}
+@keyframes dropmove {
+0%{
+    margin-top: 6px;
+    transition: all 2s linear;
+
+}
+    10%{
+        margin-top: 7px;
+        transition: all 2s linear;
+    }
+    20%{
+        margin-top: 8px;
+        transition: all 2s linear;
+    }
+    30%{
+        margin-top: 9px;
+        transition: all 2s linear;
+    }
+    40%{
+        margin-top: 10px;
+        transition: all 2s linear;
+    }
+    50%{
+        margin-top: 11px;
+        transition: all 2s linear;
+    }
+    60%{  transition: all 2s linear;
+        margin-top: 10px;
+    }
+    70%{  transition: all 2s linear;
+        margin-top: 9px;
+    }
+    80%{  transition: all 2s linear;
+        margin-top: 8px;
+    }
+    90%{  transition: all 2s linear;
+        margin-top: 7px;
+    }
+    100%{  transition: all 2s linear;
+        margin-top: 6px;
+    }
+
+}

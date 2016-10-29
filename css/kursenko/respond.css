@@ -1,0 +1,44 @@
+@media (max-width: 952px) {
+    .banner_mp4{
+        width: 300% !important;
+        margin-left: -80%;
+    }
+
+}
+@media (max-width: 545px) {
+    .hireMe{
+        display: none !important;
+    }
+    .head>figure{
+        min-width: 30px !important;
+    }
+    .head>figure>img{
+        float: right !important;
+    }
+}
+@media (max-width: 920px) {
+    .title{
+        padding-top: 8rem;
+    }
+    .title>strong{
+        font-size: 8rem;
+    }
+    .title>h2{
+        font-size: 6rem;
+    }
+    .oval{
+        margin-top: 4rem !important
+    }
+}
+@media (max-width: 515px) {
+    .title>strong{
+        font-size: 4rem;
+    }
+    .title>h2{
+        font-size: 4rem;
+    }
+    .oval{
+            margin-top: 12rem !important;
+     }
+
+}
