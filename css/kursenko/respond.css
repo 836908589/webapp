@@ -1,44 +1,115 @@
 @media (max-width: 952px) {
-    .banner_mp4{
-        width: 300% !important;
-        margin-left: -80%;
+    .banner_mp4>video{
+        margin-left: -180%;
     }
-
 }
+
 @media (max-width: 545px) {
-    .hireMe{
+    .hireMe {
         display: none !important;
     }
-    .head>figure{
+
+    .head > figure {
         min-width: 30px !important;
     }
-    .head>figure>img{
+
+    .head > figure > img {
         float: right !important;
     }
 }
+
 @media (max-width: 920px) {
-    .title{
+    .title {
         padding-top: 8rem;
     }
-    .title>strong{
+
+    .title > strong {
         font-size: 8rem;
     }
-    .title>h2{
+
+    .title > h2 {
         font-size: 6rem;
     }
-    .oval{
+
+    .oval {
         margin-bottom: 0rem !important
     }
 }
-@media (max-width: 515px) {
-    .title>strong{
-        font-size: 4rem;
-    }
-    .title>h2{
-        font-size: 4rem;
-    }
-    .oval{
-            margin-bottom: 6rem !important;
-     }
 
+@media (max-width: 515px) {
+    .title > strong {
+        font-size: 4rem;
+    }
+
+    .title > h2 {
+        font-size: 4rem;
+    }
+
+    .oval {
+        margin-bottom: 6rem !important;
+    }
+
+}
+
+/*第二部分*/
+@media (max-width: 1024px) {
+    .second_part {
+        background:#0A0A0A url(../../img/kursenko/hfs-bg-md.jpg) no-repeat center center;
+    }
+    .sec{
+        min-height: 450px;
+    }
+}
+@media (max-width: 991px) {
+    .second_part {
+        background:#0A0A0A url(../../img/kursenko/hfs-bg-sm.jpg) no-repeat right;
+    }
+.tit{
+    font-size: 4rem;
+}
+.content_div{
+    margin-top: 8%;
+}
+}
+@media (max-width: 767px) {
+    .second_part {
+        background:#0A0A0A url(../../img/kursenko/hfs-bg-xs.jpg) no-repeat center center;
+        background-size: cover;
+        text-align: center;
+        height: 450px;
+        position: relative;
+        overflow: hidden;
+    }
+    .sec{
+        min-height: 450px;
+    }
+    .tit{
+        text-align: left;
+        font-size: 3rem;
+    }
+    .titl_discri{
+        text-align: left;
+        font-size: 1.6rem;
+    }
+    .content_div{
+        min-width: 100%;
+    }
+    .content_sec{
+        min-width: 100%;
+    }
+    .tit{
+        text-align: center;
+        font-size: 2.4rem;
+
+    }
+    .titl_discri{
+        display: none;
+    }
+    .skip{
+        margin: 10% auto;
+        min-width: 160px;
+    }
+    .skip>span{
+        font-size: 1rem;
+    }
 }
