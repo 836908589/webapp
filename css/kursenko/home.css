@@ -51,29 +51,32 @@ header {
 
 .head > figure {
     width: 10%;
-    min-width: 128px;
+    min-width: 130px;
     height: auto;
     text-align: center;
     float: right;
-    margin-top: 0.8rem;
+    margin-top: 0.79rem;
 }
 
 .head > figure > img {
     width: 25%;
-    min-width: 30px;
-    max-width: 30px;
+    min-width: 26px;
+    max-width: 26px;
     height: auto;
     display:block;
     float: left;
 }
 
 .head > figure > span {
-    width: 60%;
+    width: 6.5rem;
     height: auto;
-    margin: 8px 10px 4px 0px;
+    margin-top: 0.2rem;
     font-size: 18px;
+    font-weight: 600;
     display:block;
     float: right;
+    text-align: center;
+    line-height: 2rem;
 }
 
 .banner_mp4 {
@@ -106,6 +109,7 @@ header {
     height: 40px;
     border-radius: 10px;
     border: 3px solid #000;
+    float: left;
     margin-left: 49%;
     margin-top: 8rem;
 }

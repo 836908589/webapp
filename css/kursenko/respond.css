@@ -27,7 +27,7 @@
         font-size: 6rem;
     }
     .oval{
-        margin-top: 4rem !important
+        margin-bottom: 0rem !important
     }
 }
 @media (max-width: 515px) {
@@ -38,7 +38,7 @@
         font-size: 4rem;
     }
     .oval{
-            margin-top: 12rem !important;
+            margin-bottom: 6rem !important;
      }
 
 }
