@@ -1,9 +1,22 @@
+/*kursenko适配*/
+
+*{
+    -webkit-transition: all 0.6s linear;
+    -moz-transition: all 0.6s linear;
+    -ms-transition: all 0.6s linear;
+    -o-transition: all 0.6s linear;
+    transition: all 0.6s linear;
+}
 @media (max-width: 952px) {
-    .banner_mp4>video{
+    .banner_mp4 > video {
         margin-left: -180%;
     }
 }
-
+@media (max-width: 520px){
+    .oval{
+        margin-top: 15rem !important;
+    }
+}
 @media (max-width: 545px) {
     .hireMe {
         display: none !important;
@@ -30,10 +43,6 @@
     .title > h2 {
         font-size: 6rem;
     }
-
-    .oval {
-        margin-bottom: 0rem !important
-    }
 }
 
 @media (max-width: 515px) {
@@ -45,71 +54,201 @@
         font-size: 4rem;
     }
 
-    .oval {
-        margin-bottom: 6rem !important;
-    }
-
 }
 
 /*第二部分*/
+@media (max-width: 1587px) {
+    .content_sec {
+        margin-bottom: 2% !important;
+    }
+}
+
+@media (max-width: 1230px) {
+    .th_tit {
+        margin-left: 20%;
+        font-size: 3.6rem;
+    }
+
+    .th_titl_discri {
+        margin-left: 20%;
+    }
+
+    .th_skip {
+        margin-left: 20%;
+    }
+
+    .th_phone {
+        left: 0%;
+        bottom: 0%;
+    }
+
+}
+
 @media (max-width: 1024px) {
     .second_part {
-        background:#0A0A0A url(../../img/kursenko/hfs-bg-md.jpg) no-repeat center center;
+        background: #0A0A0A url(../../img/kursenko/hfs-bg-md.jpg) no-repeat center center;
     }
-    .sec{
+
+    .sec {
         min-height: 450px;
     }
+
+    .titl_discri {
+        font-size: 1.6rem;
+    }
+
+    /*第三部分*/
+    .th_tit {
+        margin-left: 38%;
+        font-size: 3.6rem;
+    }
+
+    .th_titl_discri {
+        margin-left: 38%;
+        font-size: 1.6rem;
+    }
+
+    .th_skip {
+        margin-left: 38%;
+    }
+
 }
+
+@media (max-width: 993px) {
+    .th_phone {
+        min-width: 400px;
+    }
+}
+
 @media (max-width: 991px) {
     .second_part {
-        background:#0A0A0A url(../../img/kursenko/hfs-bg-sm.jpg) no-repeat right;
+        background: #0A0A0A url(../../img/kursenko/hfs-bg-sm.jpg) no-repeat right;
     }
-.tit{
-    font-size: 4rem;
+
+    .tit {
+        font-size: 4rem;
+    }
+
+    .content_div {
+        margin-top: 8%;
+    }
+
+    .th_tit {
+        margin-left: 38%;
+        font-size: 2.6rem;
+    }
+
+    .th_titl_discri {
+        margin-left: 38%;
+        font-size: 1.4rem;
+    }
+
+    .th_skip {
+        margin-left: 38%;
+    }
+
+    .skip {
+        width: 26%;
+        min-width: 160px !important;
+
+    }
+
+    .skip > span {
+        font-size: 1rem !important;
+    }
+
+    .fltR {
+        margin-top: 20% !important;
+    }
+
+    .titl_discri {
+        line-height: 2.4rem;
+    }
+
 }
-.content_div{
-    margin-top: 8%;
+
+@media (max-width: 830px) {
+    .th_phone {
+        left: -6%;
+    }
 }
-}
+
 @media (max-width: 767px) {
     .second_part {
-        background:#0A0A0A url(../../img/kursenko/hfs-bg-xs.jpg) no-repeat center center;
+        background: #0A0A0A url(../../img/kursenko/hfs-bg-xs.jpg) no-repeat center center;
         background-size: cover;
         text-align: center;
         height: 450px;
         position: relative;
         overflow: hidden;
     }
-    .sec{
+
+    .sec {
         min-height: 450px;
     }
-    .tit{
+
+    .tit {
         text-align: left;
         font-size: 3rem;
     }
-    .titl_discri{
+
+    .titl_discri {
         text-align: left;
         font-size: 1.6rem;
     }
-    .content_div{
+
+    .content_div {
         min-width: 100%;
     }
-    .content_sec{
+
+    .content_sec {
         min-width: 100%;
     }
-    .tit{
+
+    .tit {
         text-align: center;
-        font-size: 2.4rem;
+        font-size: 2rem;
 
     }
-    .titl_discri{
+
+    .titl_discri {
         display: none;
     }
-    .skip{
-        margin: 10% auto;
-        min-width: 160px;
+
+    .skip {
+        width: 26%;
+        min-width: 160px !important;
+        margin: 4% auto;
+
     }
-    .skip>span{
-        font-size: 1rem;
+
+    .skip > span {
+        font-size: 1rem !important;
+    }
+
+
+    .th_content {
+        width: 100% !important;
+        left: 0px;
+        margin-left: 0px;
+    }
+
+    .th_tit {
+        width: 100%;
+        margin-left: 0px;
+        text-align: center;
+        font-size: 2rem;
+    }
+    .fltR{
+        margin-top: 8% !important;
+    }
+
+    .th_phone {
+        width: 300px;
+        min-width: 300px;
+        left: 50%;
+        margin-left: -150px;
+        top: -60px;
+
     }
 }

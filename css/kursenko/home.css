@@ -7,7 +7,6 @@
 .b {
     border: 1px solid red;
 }
-
 * {
     padding: 0px;
     margin: 0px;
@@ -111,8 +110,10 @@ header {
     border-radius: 10px;
     border: 3px solid #000;
     float: left;
-    margin-left: 49%;
+    margin-left: 50%;
+    left: -10px;
     margin-top: 8rem;
+    position: absolute;
 }
 .drop{
     width: 0px;
@@ -170,10 +171,10 @@ header {
 .second_part{
     width: 100%;
     height: auto;
-    min-height: 900px;
     background: #1c1d1c  url("../../img/kursenko/hfs-bg-xlg.jpg") no-repeat center center;
     background-size: cover;
     color: white;
+    padding-bottom: 6%;
 }
 .tit{
     font-size: 6rem;
@@ -186,8 +187,8 @@ header {
     line-height: 40px;
 }
 .skip{
-    width: 36%;
-    min-width: 210px;
+    width: 47%;
+    min-width: 180px;
     border: 2px solid white;
     text-align:center ;
     border-radius: 4rem;
@@ -207,23 +208,80 @@ header {
     width: 74%;
     height: auto;
     margin: auto;
+    margin-bottom: 10%;
 }
 /*内容包裹的div*/
 .content_div{
-    width: 60%;
-    min-width: 600px;
+    width: 30%;
+    min-width: 560px;
     height: auto;
     display: inline-block;
     margin-top: 20%;
 }
 /*移入btn效果*/
-.skip:hover{
-    background: white;
-    color: black;
-    -webkit-transition: all 0.2s linear;
-    -moz-transition: all 0.2s linear;
-    -ms-transition: all 0.2s linear;
-    -o-transition: all 0.2s linear;
-    transition: all 0.2s linear;
+
+/*第三部分*/
+.third_part{
+    width: 100%;
+    height: auto;
+    background: #1c1d1c  url("../../img/kursenko/hoteza_app_bg.jpg") no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding-bottom: 6%;
+    position: relative;
+    overflow: hidden;
 }
-/*第二部分end*/
+.th_content{
+    position: relative;
+    left: 50%;
+    margin-left: -37%;
+    display: inline-block;
+}
+.fltR{
+    display: inline-block;
+    float: right;
+}
+.th_tit{
+    text-transform: uppercase;
+    font-size: 4.6rem;
+    font-weight: 700;
+    color: #333;
+}
+.th_phone{
+    width: 46%;
+    min-width: 500px;
+    min-height: 600px;
+    height: auto;
+    position: absolute;
+    bottom: 0px;
+    left: 2%;
+    z-index: 10;
+}
+.th_phone>img{
+        width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+        height: auto;
+    bottom: 0px;
+    position: absolute;
+}
+.th_titl_discri{
+    color: #333333;
+}
+.th_skip{
+    color: #333333;
+    border: 2px solid #333333;
+}
+/*第三部分end*/
+/*第四部分*/
+.fourth_part{
+    width: 100%;
+    height: auto;
+    background: #1c1d1c  url("../../img/kursenko/maxmarine-bg-xlg.jpg") no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding-bottom: 6%;
+    position: relative;
+    overflow: hidden;
+}
+/*第四部分end*/
