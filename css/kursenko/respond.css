@@ -1,5 +1,4 @@
-/*kursenko适配*/
-
+/*kursenko*/
 *{
     -webkit-transition: all 0.6s linear;
     -moz-transition: all 0.6s linear;
@@ -7,9 +6,44 @@
     -o-transition: all 0.6s linear;
     transition: all 0.6s linear;
 }
+p{
+    font-weight: 100;
+}@media (max-width: 1367px) {
+    .lay{
+       width: 80%;
+    }
+    .layer-1,.layer-2,.layer-3{
+        left: 50%;
+        margin-left: -25%;
+    }
+    .layer-1{
+        top: 8rem;
+    }
+    .layer-2{
+        top: 4rem;
+    }
+    .se_h1{
+        font-size: 38px;
+    }
+    .se_span,.se_p,.se_h2{
+        font-size: 18px;
+    }
+    .name{
+        font-size: 18px;
+    }
+}
 @media (max-width: 952px) {
     .banner_mp4 > video {
         margin-left: -180%;
+    }
+    .layer_img{
+        width: 40%;
+    }
+    .layer-1{
+        top: 8rem;
+    }
+    .layer-2{
+        top: 4rem;
     }
 }
 @media (max-width: 520px){
@@ -60,6 +94,12 @@
 @media (max-width: 1587px) {
     .content_sec {
         margin-bottom: 2% !important;
+    }
+    .layer-1{
+        top: 8rem;
+    }
+    .layer-2{
+        top: 4rem;
     }
 }
 
@@ -118,6 +158,9 @@
     .th_phone {
         min-width: 400px;
     }
+    .layer_img{
+        top: 10%;
+    }
 }
 
 @media (max-width: 991px) {
@@ -172,6 +215,18 @@
         left: -6%;
     }
 }
+@media (max-width: 860px) {
+    .se_h1{
+        font-size: 38px;
+    }
+    .se_span,.se_p,.se_h2{
+        font-size: 16px;
+    }
+    .se_name{
+        font-size: 16px;
+    }
+}
+
 
 @media (max-width: 767px) {
     .second_part {
@@ -219,7 +274,6 @@
         width: 26%;
         min-width: 160px !important;
         margin: 4% auto;
-
     }
 
     .skip > span {
@@ -250,5 +304,46 @@
         margin-left: -150px;
         top: -60px;
 
+    }
+    .layer_img {
+        height: 300px;
+        margin-left: 50%;
+        left: -130px;
+        top: 18rem;
+    }
+    .layer-1{
+        top: 8rem;
+    }
+    .layer-2{
+        top: 4rem;
+    }
+    .lay{
+        margin-left: -3rem;
+    }
+    .layer_img{
+        top: 20rem;
+    }
+    .site{
+        display: none;
+    }
+
+
+    /*7*/
+    .se_h1{
+        font-size: 26px;
+    }
+    .se_p{
+        min-width: 260px;
+        line-height: 2.6rem;
+    }
+    .se_span,.se_p,.se_h2{
+        font-size: 14px;
+    }
+    .se_h2{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .se_name {
+        font-size: 14px;
     }
 }
