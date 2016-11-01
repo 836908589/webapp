@@ -461,6 +461,8 @@ footer {
     font-weight: 100;
     padding-top: 10%;
     padding-bottom: 4%;
+
+   display: inline-block;
 }
 
 .just_btn > input {
@@ -491,4 +493,17 @@ footer {
 .th_skip:hover{
     color: white;
     background: #333333;
+}
+/*滚动条效果预设css*/
+.scl_tit,.four_tit{
+    margin-left: 1%;
+    opacity: 0;
+}
+.scl_titl_discri,.four_titl_discri{
+    margin-left: -4%;
+    opacity: 0;
+}
+.scl_skip,.four_skip{
+    margin-left: -4%;
+    opacity: 0;
 }
