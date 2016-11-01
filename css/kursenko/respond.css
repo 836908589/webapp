@@ -1,56 +1,92 @@
 /*kursenko*/
-*{
-    -webkit-transition: all 0.6s linear;
-    -moz-transition: all 0.6s linear;
-    -ms-transition: all 0.6s linear;
-    -o-transition: all 0.6s linear;
-    transition: all 0.6s linear;
+* {
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
 }
-p{
+
+p {
     font-weight: 100;
-}@media (max-width: 1367px) {
-    .lay{
-       width: 80%;
+}
+
+@media (max-width: 1367px) {
+    .title>strong{
+        font-size: 10rem;
     }
-    .layer-1,.layer-2,.layer-3{
+    .title > h2 {
+        font-size: 8rem;
+    }
+    .tit,.th_tit{
+        font-size: 4rem;
+    }
+    .titl_discri {
+        font-size: 20px;
+    }
+    .skip {
+        width: 207px;
+    }
+
+    .lay {
+        width: 80%;
+    }
+
+    .layer-1, .layer-2, .layer-3 {
         left: 50%;
         margin-left: -25%;
     }
-    .layer-1{
+
+    .layer-1 {
         top: 8rem;
     }
-    .layer-2{
+
+    .layer-2 {
         top: 4rem;
     }
-    .se_h1{
+
+    .se_h1 {
         font-size: 38px;
     }
-    .se_span,.se_p,.se_h2{
+
+    .se_span, .se_p, .se_h2 {
         font-size: 18px;
     }
-    .name{
+
+    .name {
         font-size: 18px;
     }
+    .just_btn > input {
+        width: 400px;
+    }
+
+
 }
+
 @media (max-width: 952px) {
     .banner_mp4 > video {
         margin-left: -180%;
     }
-    .layer_img{
+
+    .layer_img {
         width: 40%;
     }
-    .layer-1{
+
+    .layer-1 {
         top: 8rem;
     }
-    .layer-2{
+
+    .layer-2 {
         top: 4rem;
     }
 }
-@media (max-width: 520px){
-    .oval{
+
+@media (max-width: 520px) {
+    .oval {
         margin-top: 15rem !important;
     }
 }
+
 @media (max-width: 545px) {
     .hireMe {
         display: none !important;
@@ -95,10 +131,12 @@ p{
     .content_sec {
         margin-bottom: 2% !important;
     }
-    .layer-1{
+
+    .layer-1 {
         top: 8rem;
     }
-    .layer-2{
+
+    .layer-2 {
         top: 4rem;
     }
 }
@@ -158,7 +196,8 @@ p{
     .th_phone {
         min-width: 400px;
     }
-    .layer_img{
+
+    .layer_img {
         top: 10%;
     }
 }
@@ -215,18 +254,30 @@ p{
         left: -6%;
     }
 }
+@media (max-width: 900px) {
+    .foo_auto > h2 {
+        font-size: 32px;
+    }
+    .just_btn > input {
+        width: 100%;
+        font-size: 18px;
+    }
+
+}
+
 @media (max-width: 860px) {
-    .se_h1{
+    .se_h1 {
         font-size: 38px;
     }
-    .se_span,.se_p,.se_h2{
+
+    .se_span, .se_p, .se_h2 {
         font-size: 16px;
     }
-    .se_name{
+
+    .se_name {
         font-size: 16px;
     }
 }
-
 
 @media (max-width: 767px) {
     .second_part {
@@ -280,7 +331,6 @@ p{
         font-size: 1rem !important;
     }
 
-
     .th_content {
         width: 100% !important;
         left: 0px;
@@ -293,7 +343,8 @@ p{
         text-align: center;
         font-size: 2rem;
     }
-    .fltR{
+
+    .fltR {
         margin-top: 8% !important;
     }
 
@@ -305,45 +356,80 @@ p{
         top: -60px;
 
     }
+
     .layer_img {
         height: 300px;
         margin-left: 50%;
         left: -130px;
         top: 18rem;
     }
-    .layer-1{
+
+    .layer-1 {
         top: 8rem;
     }
-    .layer-2{
+
+    .layer-2 {
         top: 4rem;
     }
-    .lay{
+
+    .lay {
         margin-left: -3rem;
     }
-    .layer_img{
+
+    .layer_img {
         top: 20rem;
     }
-    .site{
+
+    .site {
         display: none;
     }
 
-
     /*7*/
-    .se_h1{
+    .se_h1 {
         font-size: 26px;
     }
-    .se_p{
-        min-width: 260px;
+
+    .se_p {
+        width: 90%;
+        margin: auto;
+        min-width: 240px;
         line-height: 2.6rem;
     }
-    .se_span,.se_p,.se_h2{
+
+    .se_span, .se_p, .se_h2 {
         font-size: 14px;
     }
-    .se_h2{
+
+    .se_h2 {
         padding-top: 1rem;
         padding-bottom: 1rem;
     }
+
     .se_name {
         font-size: 14px;
     }
+
+    .foo_auto {
+        width: 100%;
+    }
+    .foo_auto > h2 {
+        width: 70%;
+        margin: auto;
+        font-size: 22px;
+        padding-bottom: 8%;
+    }
+    .just_btn{
+        padding-bottom: 2%;
+    }
+    .just_btn > input {
+        width: 90%;
+        font-size: 18px;
+        padding-top: 4%;
+        padding-bottom: 4%;
+    }
+    .foo_auto > span {
+        width: 90%;
+        font-size: 16px;
+    }
+
 }

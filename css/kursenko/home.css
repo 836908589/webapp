@@ -10,6 +10,7 @@
     border: 1px solid red;
 }
 
+/*kursenko*/
 * {
     padding: 0px;
     margin: 0px;
@@ -209,7 +210,7 @@ header {
     text-align: center;
     border-radius: 4rem;
     margin-top: 6%;
-
+    cursor: pointer;
 }
 
 .skip > span {
@@ -220,18 +221,26 @@ header {
     font-weight: 600;
     text-transform: uppercase;
 }
-
+.skip:hover{
+    -webkit-transition: all 0.2s linear !important;
+    -moz-transition: all 0.2s linear !important;
+    -ms-transition: all 0.2s linear !important;
+    -o-transition: all 0.2s linear !important;
+    transition: all 0.2s linear !important;
+    background: white;
+    color: #333333;
+}
 .content_sec {
     width: 74%;
     height: auto;
     margin: auto;
-    margin-bottom: 10%;
+    padding-bottom: 8%;
 }
 
 /*内容包裹的div*/
 .content_div {
     width: 30%;
-    min-width: 560px;
+    min-width: 500px;
     height: auto;
     display: inline-block;
     margin-top: 20%;
@@ -323,7 +332,8 @@ header {
     position: relative;
     overflow: hidden;
 }
-.site{
+
+.site {
     display: block;
     width: 128px;
     height: 57px;
@@ -333,6 +343,7 @@ header {
     position: relative;
     z-index: 2;
 }
+
 .layer_img {
     width: 50%;
     height: 600px;
@@ -342,12 +353,14 @@ header {
     right: 2%;
     z-index: 0;
 }
+
 .layer-1 {
     width: 100%;
     height: auto;
     position: absolute;
     top: 16rem;
 }
+
 .layer-2 {
     width: 100%;
     height: auto;
@@ -355,15 +368,18 @@ header {
     top: 8rem;
     z-index: 2;
 }
+
 .layer-3 {
     width: 100%;
     height: auto;
     position: absolute;
     z-index: 3;
 }
-.lay{
+
+.lay {
     width: 100%;
 }
+
 /*第六板块end*/
 
 /*第七版ceo介绍*/
@@ -377,18 +393,21 @@ header {
     color: #333333;
     text-align: center;
 }
-.se_sec{
+
+.se_sec {
     padding-top: 8%;
     display: inline-block;
 }
-.se_h1{
+
+.se_h1 {
     width: 100%;
     height: auto;
     display: inline-block;
     font-size: 48px;
     font-weight: 400;
 }
-.se_span{
+
+.se_span {
     display: inline-block;
     color: #CAA658;
     font-size: 24px;
@@ -396,24 +415,80 @@ header {
     padding-top: 3%;
     padding-bottom: 3%;
 }
-.se_p{
+
+.se_p {
     font-size: 24px;
     color: #979797;
     line-height: 3.5rem;
 }
-.se_name{
+
+.se_name {
     font-size: 20px;
     color: #979797;
 }
-.se_h2{
+
+.se_h2 {
     font-size: 24px;
     padding-top: 1.6%;
     padding-bottom: 1%;
 }
-.cr_img{
+
+.cr_img {
     width: 69px;
     height: 69px;
     border-radius: 50%;
     margin: 5% auto auto;
 }
+
 /*第七版ceo介绍end*/
+/*页尾*/
+footer {
+    width: 100%;
+    height: auto;
+    background: #1C1C1C;
+}
+
+.foo_auto {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+
+.foo_auto > h2 {
+    font-size: 44px;
+    color: white;
+    font-weight: 100;
+    padding-top: 10%;
+    padding-bottom: 4%;
+}
+
+.just_btn > input {
+    width: 55%;
+    min-width: 220px;
+    height: auto;
+    background: #ECBE5C;
+    border: 1px solid #ECBE5C;
+    font-weight: 600;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 24px;
+    border-radius: 50px;
+    outline: none;
+}
+
+.just_btn > input:hover {
+    background: #EFC773;
+    cursor: pointer;
+}
+.foo_auto > span {
+    display: inline-block;
+    font-size: 21px;
+    color: #70717e;
+    padding-top: 4%;
+    padding-bottom: 10%;
+}
+.th_skip:hover{
+    color: white;
+    background: #333333;
+}
