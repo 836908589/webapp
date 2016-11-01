@@ -3,12 +3,13 @@
  */
 var myurl=["../page/kursenko/home.html","../page/wish/wish.html"];
 function myDelay(url) {
+    /*动画执行3s后消失*/
     setTimeout(function () {
         $(".load_animate").css({"opacity": "0", "transition": "all 1s linear"})
     }, 3000);
+    /*延迟4s自动跳转*/
     setTimeout(function () {
         window.location = url;
-        /*../page/kursenko/home.html*/
     }, 4000);
     return;
 }

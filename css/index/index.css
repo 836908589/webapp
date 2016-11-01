@@ -4,19 +4,24 @@
     font-size: 12px;
     font-weight: 500;
     font-family: "微软雅黑";
+
 }
+body{
+     background-color: #C0DCED;
+ }
 
 .bg {
     width: 100%;
-    min-width: 1366px;
+    height: auto;
     background: url("../../img/index/bg.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
     background-position: 0% 0%;
     position: relative;
     left: 0px;
     top: 0px;
     display: inline-block;
+
 }
 
 .red {
@@ -25,19 +30,16 @@
 
 .out_container {
     width: 80%;
-    max-width: 1200px;
-    min-width: 1200px;
     margin: auto;
     /*border: 2px solid #333333;*/
 }
 
 .container_auto {
-    width: 80%;
+    width: 75.78%;
     height: auto;
     margin: auto;
     margin-top: 10%;
     margin-bottom: 10%;
-    /*border: 1px solid gold;*/
 }
 
 .container {

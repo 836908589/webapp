@@ -1,0 +1,55 @@
+/*首页index.html*/
+@media (max-width: 1600px) {
+    .container_auto{
+        width: 960px;
+    }
+}
+@media (max-width: 1223px) {
+    .container_auto{
+        width: 918px;
+    }
+    .ma_left{
+        margin-left: 36px;
+    }
+}
+@media (max-width: 1174px) {
+    .container_auto{
+        width: 666px;
+    }
+    .ma_left,.re_pro5{
+        margin-left: 30px;
+    }
+    .re_pro4{
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .re_pro7{
+        margin-left: 0px;
+    }
+}
+@media (max-width: 854px) {
+    .container_auto{
+        width: 435px;
+    }
+    .re_pro3{
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .re_pro4{
+        margin-left: 30px;
+    }
+    .re_pro5{
+        margin-left: 0px;
+    }
+}
+@media (max-width: 567px) {
+    .container_auto{
+        width: 202px;
+    }
+    .re_pro2,.re_pro4,.re_pro6,.re_pro8{
+        margin-left: 0px;
+    }
+    .re_pro2{
+        margin-top: 30px;
+    }
+}
