@@ -30,8 +30,10 @@ $(document).ready(function () {
         var fif_Top = $(".fifth_scroll").offset().top - $(".fifth_scroll").height() / 2;
         var six_Top = $(".sixth_scroll").offset().top - $(".sixth_scroll").height() / 2;
         var seventh_part = $(".seventh_part").offset().top - $(".seventh_part").height() / 2;
-
-
+        var foo = $(".my_footer").offset().top-$(".my_footer").height()*1.6;
+         alert(top)
+        alert(foo)
+        
         function myAni(partTop,tit,discr,skip,img) {
             var classTit = tit;
             classTit = classTit.substr(1);
@@ -65,9 +67,35 @@ $(document).ready(function () {
         myAni(fif_Top,".fifth_tit",".fifth_ani_discri",".fifth_ani_skip");
         /*第六块*/
         myAni(six_Top,".sixth_ani_tit",".sixth_ani_discri",".sixth_ani_skip");
+        function textAni() {
+            if (top >= seventh_part) {
+                $(".se_h1").css({"opacity":"1","transition":"all 0.4s linear"});
+                setInterval(function () {
+                    $(".se_span").css({"opacity":"1","transition":"all 0.4s linear"});
+                },300);
+                setInterval(function () {
+                    $(".se_p").css({"opacity":"1","transition":"all 0.4s linear"});
+                },600);
+                setInterval(function () {
+                    $(".cr_img").css({"opacity":"1","transition":"all 0.4s linear","margin":"5% auto auto"});
+                },900);
+                setInterval(function () {
+                    $(".se_h2").css({"opacity":"1","transition":"all 0.4s linear","padding-top":"2%"});
+                },1200);
+                setInterval(function () {
+                    $(".se_name").css({"opacity":"1","transition":"all 0.4s linear","padding-top":"0%"});
+                },1500);
+            }
+        }
+        textAni();
+        /*footer*/
+        if (top >=foo) {
+            $(".foo_auto>h2").css({"opacity":"1","transition":"all 0.4s linear"});
+            $(".just_btn > input").css({"opacity":"1","transition":"all 0.4s linear","transition-delay":"0.8s"});
+            $(".foo_auto > span").css({"opacity":"1","transition":"all 0.4s linear","transition-delay":"1.6s"});
+
+        }
     });
     
-    function textAni() {
-        
-    }
+
 });

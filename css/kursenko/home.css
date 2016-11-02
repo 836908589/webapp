@@ -222,7 +222,8 @@ header {
     font-weight: 600;
     text-transform: uppercase;
 }
-.skip:hover{
+
+.skip:hover {
     -webkit-transition: all 0.2s linear !important;
     -moz-transition: all 0.2s linear !important;
     -ms-transition: all 0.2s linear !important;
@@ -231,6 +232,7 @@ header {
     background: white;
     color: #333333;
 }
+
 .content_sec {
     width: 74%;
     height: auto;
@@ -406,6 +408,7 @@ header {
     display: inline-block;
     font-size: 48px;
     font-weight: 400;
+    opacity: 0;
 }
 
 .se_span {
@@ -415,30 +418,36 @@ header {
     font-weight: 200;
     padding-top: 3%;
     padding-bottom: 3%;
+    opacity: 0;
 }
 
 .se_p {
     font-size: 24px;
     color: #979797;
     line-height: 3.5rem;
+    opacity: 0;
 }
 
 .se_name {
     font-size: 20px;
     color: #979797;
+    opacity: 0;
+    padding-top: 1.6%;
 }
 
 .se_h2 {
     font-size: 24px;
-    padding-top: 1.6%;
+    padding-top: 2.6%;
     padding-bottom: 1%;
+    opacity: 0;
 }
 
 .cr_img {
     width: 69px;
     height: 69px;
     border-radius: 50%;
-    margin: 5% auto auto;
+    margin: 8% auto auto;
+    opacity: 0;
 }
 
 /*第七版ceo介绍end*/
@@ -462,8 +471,8 @@ footer {
     font-weight: 100;
     padding-top: 10%;
     padding-bottom: 4%;
-
-   display: inline-block;
+    display: inline-block;
+    opacity: 0;
 }
 
 .just_btn > input {
@@ -478,51 +487,58 @@ footer {
     font-size: 24px;
     border-radius: 50px;
     outline: none;
+    opacity: 0;
 }
 
 .just_btn > input:hover {
     background: #EFC773;
     cursor: pointer;
 }
+
 .foo_auto > span {
     display: inline-block;
     font-size: 21px;
     color: #70717e;
     padding-top: 4%;
     padding-bottom: 10%;
+    opacity: 0;
 }
-.th_skip:hover{
+
+.th_skip:hover {
     color: white;
     background: #333333;
 }
+
 /*滚动条效果预设css*/
-.scl_tit,.four_tit,.sixth_ani_tit{
+.scl_tit, .four_tit, .sixth_ani_tit {
     margin-left: 4%;
     opacity: 0;
 }
-.scl_titl_discri,.four_titl_discri,.sixth_ani_discri{
+
+.scl_titl_discri, .four_titl_discri, .sixth_ani_discri {
     margin-left: -4%;
     opacity: 0;
 }
-.scl_skip,.four_skip,.sixth_ani_skip{
+
+.scl_skip, .four_skip, .sixth_ani_skip {
     margin-left: -4%;
     opacity: 0;
 }
 
 /*奇数*/
-.thi_ani_tit,.fifth_tit{
+.thi_ani_tit, .fifth_tit {
     margin-left: -4%;
     opacity: 0;
 }
-.thi_ani_discri,.fifth_ani_discri{
+
+.thi_ani_discri, .fifth_ani_discri {
     margin-left: 4%;
     opacity: 0;
 }
-.thi_ani_skip,.fifth_ani_skip{
+
+.thi_ani_skip, .fifth_ani_skip {
     margin-left: 4%;
     opacity: 0;
 }
+
 /*第七版文字效果*/
-.seven_ani{
-    opacity: 0;
-}
