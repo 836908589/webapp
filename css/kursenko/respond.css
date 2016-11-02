@@ -12,18 +12,22 @@ p {
 }
 
 @media (max-width: 1367px) {
-    .title>strong{
+    .title > strong {
         font-size: 10rem;
     }
+
     .title > h2 {
         font-size: 8rem;
     }
-    .tit,.th_tit{
+
+    .tit, .th_tit {
         font-size: 4rem;
     }
+
     .titl_discri {
         font-size: 20px;
     }
+
     .skip {
         width: 207px;
     }
@@ -56,10 +60,10 @@ p {
     .name {
         font-size: 18px;
     }
+
     .just_btn > input {
         width: 400px;
     }
-
 
 }
 
@@ -81,9 +85,17 @@ p {
     }
 }
 
-@media (max-width: 520px) {
+/*@media (max-width: 520px) {
+}*/
+@media (min-width: 330px) and (max-width: 420px) {
     .oval {
-        margin-top: 15rem !important;
+        margin-top: 100%;
+    }
+}
+
+@media (max-width: 328px) {
+    .oval {
+        margin-top: 25%;
     }
 }
 
@@ -254,10 +266,12 @@ p {
         left: -6%;
     }
 }
+
 @media (max-width: 900px) {
     .foo_auto > h2 {
         font-size: 32px;
     }
+
     .just_btn > input {
         width: 100%;
         font-size: 18px;
@@ -412,21 +426,25 @@ p {
     .foo_auto {
         width: 100%;
     }
+
     .foo_auto > h2 {
         width: 70%;
         margin: auto;
         font-size: 22px;
         padding-bottom: 8%;
     }
-    .just_btn{
+
+    .just_btn {
         padding-bottom: 2%;
     }
+
     .just_btn > input {
         width: 90%;
         font-size: 18px;
         padding-top: 4%;
         padding-bottom: 4%;
     }
+
     .foo_auto > span {
         width: 90%;
         font-size: 16px;

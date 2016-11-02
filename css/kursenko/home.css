@@ -125,6 +125,7 @@ header {
     left: -10px;
     margin-top: 8rem;
     position: absolute;
+    z-index: 30;
 }
 
 .drop {
@@ -495,15 +496,33 @@ footer {
     background: #333333;
 }
 /*滚动条效果预设css*/
-.scl_tit,.four_tit{
-    margin-left: 1%;
+.scl_tit,.four_tit,.sixth_ani_tit{
+    margin-left: 4%;
     opacity: 0;
 }
-.scl_titl_discri,.four_titl_discri{
+.scl_titl_discri,.four_titl_discri,.sixth_ani_discri{
     margin-left: -4%;
     opacity: 0;
 }
-.scl_skip,.four_skip{
+.scl_skip,.four_skip,.sixth_ani_skip{
     margin-left: -4%;
+    opacity: 0;
+}
+
+/*奇数*/
+.thi_ani_tit,.fifth_tit{
+    margin-left: -4%;
+    opacity: 0;
+}
+.thi_ani_discri,.fifth_ani_discri{
+    margin-left: 4%;
+    opacity: 0;
+}
+.thi_ani_skip,.fifth_ani_skip{
+    margin-left: 4%;
+    opacity: 0;
+}
+/*第七版文字效果*/
+.seven_ani{
     opacity: 0;
 }
