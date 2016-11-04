@@ -33,7 +33,7 @@ $(document).ready(function () {
         var foo = $(".my_footer").offset().top-$(".my_footer").height()*1.6;
          alert(top)
         alert(foo)
-        
+
         function myAni(partTop,tit,discr,skip,img) {
             var classTit = tit;
             classTit = classTit.substr(1);

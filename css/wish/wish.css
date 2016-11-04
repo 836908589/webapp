@@ -1,0 +1,228 @@
+/*如愿*/
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background: url("../../img/wish/bg-p1.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.wish-head {
+    width: 60%;
+    min-width: 280px;
+    height: auto;
+    margin: auto;
+    padding-top: 12%;
+    padding-bottom: 12%;
+}
+
+.content-head {
+    width: 20%;
+    min-width: 280px;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+}
+
+.logo > img {
+    width: 160px;
+    height: auto;
+}
+
+.logo > h2 {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    font-size: 34px;
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.content-head > p {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.down-load {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.ico {
+    width: 20%;
+    height: auto;
+    display: inline-block;
+    text-align: left;
+    font-size: 42px !important;
+}
+
+button {
+    width: auto;
+    height: auto;
+    background: none;
+    border: 1px solid white;
+    outline: none;
+    color: white;
+    border-radius: 8px;
+    padding-top: 4px;
+    padding-bottom: 8px;
+    margin-top: 6%;
+
+}
+
+.down-btn {
+    width: 60%;
+    height: auto;
+    display: inline-block;
+}
+
+.down-version, .my-item {
+    width: 90%;
+    height: auto;
+    display: inline-block;
+    font-size: 14px;
+}
+.item{
+    min-width: 1101.420px !important;
+}
+/*轮播*/
+.carousel-inner {
+    width: 77.7%;
+    height: auto;
+    margin: auto;
+}
+
+.item {
+    width: 100%;
+}
+
+.my-slide {
+    width: 100%;
+    height: auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background: #F3F2F1;
+}
+
+.fa-angle-left, .fa-angle-right {
+    font-size: 60px !important;
+    line-height: normal;
+    color: #333333;
+}
+
+.carousel_part {
+    width: 14%;
+    min-width: 260px;
+    height: 460px;
+    /*border: 1px solid red;*/
+    background-color: white;
+    display: inline-block;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.carousel-inner {
+    height: 460px !important;
+}
+.ma-left {
+    margin-left: 1.4em;
+}
+
+.carousel_part > img {
+    width: 80%;
+    min-width: 7rem;
+    height: auto;
+    margin: 30% 10% 18% 10%;
+    transform: scale(1.2, 1.2);
+}
+
+.carousel_part > h1 {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #50504D;
+    padding-bottom: 8%;
+}
+
+.line {
+    width: 40%;
+    min-width: 6rem;
+    height: auto;
+    margin: auto;
+    border: 1px solid #DFDDD8;
+}
+
+.carousel_part > p {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: #7D7A75;
+    margin-top: 100%;
+}
+
+.carousel-control {
+    background: none !important;
+}
+
+.carousel {
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+/*移入效果*/
+.part_d:hover{
+    margin-top: 1.8% !important;
+    box-shadow: #666 0px 0px 14px;
+    transition: all 0.3s linear;
+}
+
+.carousel_part:hover.carousel_part>img{
+    margin: 10% 10%;
+    transform: scale(1,1);
+    transition: all 0.3s linear;
+}
+.carousel_part:hover{
+    background-color: #339999;
+
+}
+.carousel_part:hover.carousel_part>p{
+    margin-top: 5%;
+    transition: all 0.3s linear;
+    color: white;
+    opacity: 0.9;
+}
+.carousel_part:hover.carousel_part>h1{
+    color: white;
+}
+.carousel-indicators li{
+    background-color: #b3b3b3;
+ }
+
+.carousel-indicators .active{
+    background-color: #333333;
+}
+
+/*轮播end*/
+/*团队介绍*/
+.team-introduction{
+    background-color: white;
+}
+/*团队介绍end*/
