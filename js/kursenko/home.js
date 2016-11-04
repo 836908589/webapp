@@ -24,16 +24,20 @@ function reH() {
 $(document).ready(function () {
     $(window).scroll(function () {
         var top = $(window).scrollTop();//获取当前位置离页面顶部的距离
-        var sec_Top = $(".second_scroll").offset().top- $(".third_scroll").height() / 2//获取元素离页面顶部的距离;
+        var sec_Top = $(".second_scroll").offset().top- $(".third_scroll").height() / 2;//获取元素离页面顶部的距离;
         var thi_Top = $(".third_scroll").offset().top - $(".third_scroll").height() / 2;
         var for_Top = $(".fourth_scroll").offset().top - $(".fourth_scroll").height() / 2;
         var fif_Top = $(".fifth_scroll").offset().top - $(".fifth_scroll").height() / 2;
         var six_Top = $(".sixth_scroll").offset().top - $(".sixth_scroll").height() / 2;
         var seventh_part = $(".seventh_part").offset().top - $(".seventh_part").height() / 2;
         var foo = $(".my_footer").offset().top-$(".my_footer").height()*1.6;
+<<<<<<< HEAD
          alert(top)
         alert(foo)
 
+=======
+       /*加载动画*/
+>>>>>>> af25100b6f7f3c20b3d30da84ab504cd49455c77
         function myAni(partTop,tit,discr,skip,img) {
             var classTit = tit;
             classTit = classTit.substr(1);
@@ -57,6 +61,7 @@ $(document).ready(function () {
                 $(img).css({"opacity":"1","transition":"all 0.3s linear"});
             }, 500);
         }
+        /*加载动画end*/
         /*第二块*/
         myAni(sec_Top,".scl_tit",".scl_titl_discri",".scl_skip");
         /*第三块*/
@@ -67,6 +72,7 @@ $(document).ready(function () {
         myAni(fif_Top,".fifth_tit",".fifth_ani_discri",".fifth_ani_skip");
         /*第六块*/
         myAni(six_Top,".sixth_ani_tit",".sixth_ani_discri",".sixth_ani_skip");
+        /*文字板块加载动画*/
         function textAni() {
             if (top >= seventh_part) {
                 $(".se_h1").css({"opacity":"1","transition":"all 0.4s linear"});
@@ -88,6 +94,7 @@ $(document).ready(function () {
             }
         }
         textAni();
+        /*文字板块加载动画end*/
         /*footer*/
         if (top >=foo) {
             $(".foo_auto>h2").css({"opacity":"1","transition":"all 0.4s linear"});
