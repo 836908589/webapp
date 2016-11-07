@@ -85,8 +85,16 @@ p {
     }
 }
 
-/*@media (max-width: 520px) {
-}*/
+@media (max-width: 500px) {
+    .oval {
+        margin-top: 20rem !important;
+    }
+}
+@media (max-width: 1026px) {
+    header{
+        height: 660px !important;
+    }
+}
 @media (min-width: 330px) and (max-width: 420px) {
     .oval {
         margin-top: 100%;
