@@ -13,20 +13,19 @@ function myDelay(url) {
     }, 4000);
     return;
 }
-
-var url = location.search;
-var pageName = url.substr(6);
+$(function () {
+    var url = location.search;
+    var pageName = url.substr(6);
 // console.log(typeof url.substr(6))
 
-if (pageName == "kursenko") {
-    myDelay(myurl[0]);
-}else if(pageName == "wish"){
-    myDelay(myurl[1]);
-}else if(pageName == "zmjh"){
-    myDelay(myurl[2]);
-}
+    if (pageName == "kursenko") {
+        myDelay(myurl[0]);
+    }else if(pageName == "wish"){
+        myDelay(myurl[1]);
+    }else if(pageName == "zmjh"){
+        myDelay(myurl[2]);
+    }
+})
 
-
-//
 
 

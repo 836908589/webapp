@@ -31,13 +31,10 @@ $(document).ready(function () {
         var six_Top = $(".sixth_scroll").offset().top - $(".sixth_scroll").height() / 2;
         var seventh_part = $(".seventh_part").offset().top - $(".seventh_part").height() / 2;
         var foo = $(".my_footer").offset().top-$(".my_footer").height()*1.6;
-<<<<<<< HEAD
-         alert(top)
-        alert(foo)
-
-=======
+    /*     alert(top)
+        alert(foo)*/
+        
        /*加载动画*/
->>>>>>> af25100b6f7f3c20b3d30da84ab504cd49455c77
         function myAni(partTop,tit,discr,skip,img) {
             var classTit = tit;
             classTit = classTit.substr(1);
