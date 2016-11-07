@@ -1,7 +1,7 @@
 /**
  * Created by ThinkPad User on 2016/10/28.
  */
-var myurl=["../page/kursenko/home.html","../page/wish/wish.html"];
+var myurl=["../page/kursenko/home.html","../page/wish/wish.html","http://www.sczyz.org.cn/zmjh"];
 function myDelay(url) {
     /*动画执行3s后消失*/
     setTimeout(function () {
@@ -22,6 +22,8 @@ if (pageName == "kursenko") {
     myDelay(myurl[0]);
 }else if(pageName == "wish"){
     myDelay(myurl[1]);
+}else if(pageName == "zmjh"){
+    myDelay(myurl[2]);
 }
 
 
