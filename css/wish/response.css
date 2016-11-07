@@ -1,4 +1,7 @@
 /*如愿适配*/
+.my-slide{
+    overflow: hidden;
+}
 @media (max-width: 1585px) {
     .carousel-inner{
         width: 825px;

@@ -85,6 +85,7 @@ button {
     padding-bottom: 8px;
     margin-top: 6%;
     position: relative;
+    overflow: hidden;
 
 }
 
@@ -104,7 +105,7 @@ button {
 }
 
 .item {
-    min-width: 1101.420px !important;
+    min-width: 1101.420px;
 }
 
 /*轮播*/
@@ -136,15 +137,15 @@ button {
     width: 14%;
     min-width: 260px;
     height: 460px;
-    /*border: 1px solid red;*/
     background-color: white;
     display: inline-block;
     overflow: hidden;
     cursor: pointer;
+
 }
 
 .carousel-inner {
-    height: 460px !important;
+    height: 460px;
 }
 
 .ma-left {
@@ -399,6 +400,7 @@ button {
     width: 45px;
     height: 45px;
     display: inline-block;
+    line-height: 45px;
 }
 
 .icon-small > img {
@@ -413,6 +415,7 @@ button {
     display: inline-table;
     position: absolute;
     left: 20%;
+    top: 0px;
     font-size: 1.4rem;
     color: #7D7A75;
 }
@@ -443,9 +446,46 @@ footer > aside {
 }
 
 /*效果css*/
+.btn-left{
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    background-color: black;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+    opacity: 0.3;
+}
+.btn-right{
+    left: 50%;
+}
+button:hover .btn-left{
+    animation: transLeft 1s linear 1;
+}
+button:hover .btn-right{
+    animation: transRight 1s linear 1;
+}
+
 .core-part:hover{
     transform: scale(1.03);
     border-radius: 5px;
     box-shadow: 0px 0px 10px #333;
     cursor: pointer;
+}
+/*动画*/
+@keyframes transLeft {
+     0%{
+         width: 0%;
+     }
+     50%{
+         width: 50%;
+     }
+ }
+@keyframes transRight {
+    0%{
+        width: 0%;
+    }
+    50%{
+        width: 50%;
+    }
 }

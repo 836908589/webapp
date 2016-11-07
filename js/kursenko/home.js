@@ -33,7 +33,7 @@ $(document).ready(function () {
         var foo = $(".my_footer").offset().top-$(".my_footer").height()*1.6;
     /*     alert(top)
         alert(foo)*/
-        
+
        /*加载动画*/
         function myAni(partTop,tit,discr,skip,img) {
             var classTit = tit;
