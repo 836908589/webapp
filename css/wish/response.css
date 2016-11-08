@@ -27,9 +27,14 @@
         height: 340px;
         float: left;
     }
+}
+@media (max-width: 1370px){
     .logo > img {
         width: 120px;
         height: auto;
+    }
+    .logo > h2 {
+        font-size: 28px;
     }
 }
 @media (max-width: 1225px) {
