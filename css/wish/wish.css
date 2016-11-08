@@ -4,6 +4,7 @@
     padding: 0px;
     font-size: 12px;
     transition: all 0.3s linear;
+    font-family: "微软雅黑";
 }
 
 header {
@@ -259,6 +260,7 @@ button {
     min-width: 20.3rem;
     height: auto;
     float: left;
+    overflow: hidden;
 
 }
 
@@ -272,15 +274,19 @@ button {
     min-width: 20.3rem;
     height: auto;
     display: block;
-    font-size: 1.4rem;
-    text-align: center;
-    line-height: 2.8rem;
+
     float: right;
     color: #50504D;
     margin-top: 2.8%;
-
 }
-
+.team-right>p{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: 2.8rem;
+}
 /*团队介绍end*/
 
 /*核心成员*/
@@ -336,7 +342,7 @@ button {
 }
 
 .ma-left20 {
-    margin-left: 4%;
+    margin-left: 35px;
 }
 
 .ma-top6 {
@@ -351,7 +357,7 @@ button {
 /*地图模块*/
 .baidu-map {
     background: white;
-    /* overflow: hidden;*/
+     overflow: hidden;
 }
 
 .map-auto {
@@ -431,61 +437,107 @@ button {
 /*地图模块end*/
 
 /*footer*/
-footer {
+footer{
     width: 100%;
     height: auto;
-    padding: 6% 0px 6% 0px;
+    padding: 4% 0px 4% 0px;
     background: #005757;
     text-align: center;
     color: white;
     line-height: 3rem;
 }
 
-footer > aside {
+footer> aside {
     font-size: 1.6rem;
 }
 
 /*效果css*/
-.btn-left{
+.btn-left {
     width: 0%;
     height: 100%;
     position: absolute;
     background-color: black;
     left: 0px;
     top: 0px;
-    z-index: 0;
     opacity: 0.3;
 }
-.btn-right{
-    left: 50%;
-}
-button:hover .btn-left{
-    animation: transLeft 1s linear 1;
-}
-button:hover .btn-right{
-    animation: transRight 1s linear 1;
+
+.btn-right {
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    background-color: black;
+    right: 0px;
+    top: 0px;
+    opacity: 0.3;
 }
 
-.core-part:hover{
+button:hover .btn-left {
+    animation: transLeft 0.3s linear 0.5;
+    animation-fill-mode: forwards;
+}
+
+button:hover .btn-right {
+    animation: transRight 0.3s linear 0.5;
+    animation-fill-mode: forwards;
+
+}
+
+.core-part:hover {
     transform: scale(1.03);
     border-radius: 5px;
     box-shadow: 0px 0px 10px #333;
     cursor: pointer;
 }
+
 /*动画*/
 @keyframes transLeft {
-     0%{
-         width: 0%;
-     }
-     50%{
-         width: 50%;
-     }
- }
-@keyframes transRight {
-    0%{
+    0% {
         width: 0%;
     }
-    50%{
+    50% {
         width: 50%;
     }
+}
+
+@keyframes transRight {
+    0% {
+        width: 0%;
+    }
+    50% {
+        width: 50%;
+    }
+}
+/*滚动效果*/
+.ani-maLf,.h2-ani,.hp-ani,.btn-maTop,.btn-top{
+    margin-left: -10%;
+    opacity: 0;
+}
+.car-ani{
+    transform: scale(0.3) rotate(90deg);
+    opacity: 0;
+}
+.team-ani{
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    transform: scale(1.3);
+    opacity: 0;
+}
+.team-text{
+    opacity: 0;
+}
+.ani-topw,.ani-toph,.ani-tops{
+    opacity: 0;
+}
+.map-maL{
+    margin-left: -20%;
+    opacity: 0;
+}
+.map-maR{
+    opacity: 0;
+}
+.asideTe{
+    opacity: 0;
 }
