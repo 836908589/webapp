@@ -27,6 +27,10 @@
         height: 340px;
         float: left;
     }
+    .logo > img {
+        width: 120px;
+        height: auto;
+    }
 }
 @media (max-width: 1225px) {
     .map-left{
