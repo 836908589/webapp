@@ -486,7 +486,9 @@ button:hover .btn-right {
 .core-part:hover {
     transform: scale(1.03);
     border-radius: 5px;
-    box-shadow: 0px 0px 10px #333;
+    -webkit-box-shadow: 0px 0px 10px #333;;
+    -moz-box-shadow: 0px 0px 10px #333;;
+    box-shadow: 0px 0px 10px #333;;
     cursor: pointer;
 }
 
