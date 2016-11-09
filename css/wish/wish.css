@@ -130,8 +130,8 @@ button {
 
 .fa-angle-left, .fa-angle-right {
     font-size: 60px !important;
-    line-height: normal;
-    color: #333333;
+    line-height: 100;
+    color: #008789;
 }
 
 .carousel_part {
