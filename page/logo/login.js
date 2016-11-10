@@ -48,7 +48,7 @@ function loginAction() {
                 // alert(json.msg);    //返回0成功//返回1失败；
                 if (json.code == "0") {
                     console.log("登陆成功");
-                    window.location.href="../index/index.html";
+                    window.location.href="../../index.html";
                 } else {
                     console.log("登陆成功！");
                 }

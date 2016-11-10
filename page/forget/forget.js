@@ -8,7 +8,7 @@
 function myCenter() {
      var box = "<div class='bg'>" +
         "<div class='bomb_box'>" +
-        "<img src=" + "../img/成功.png" + ">" +
+        "<img src=" + "" + "../img/成功.png>" +
         "<span>已成功发送至您的邮箱</span>"
         + "<input type='button' value='确定' class='sure' onclick='sure()'/>" +
         "</div>" +
