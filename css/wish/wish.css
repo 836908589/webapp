@@ -6,7 +6,24 @@
     transition: all 0.3s linear;
     font-family: "微软雅黑";
 }
-
+.backTop{
+    width: 28px;
+    height: 70px;
+    position: fixed;
+    right: 4%;
+    top: 80%;
+    z-index: 999;
+    overflow: hidden;
+    cursor: pointer;
+    background: url("../../img/backtop.png")no-repeat;
+    background-position: left top;
+    transition: all 0s linear;
+    display: none;
+}
+.backTop:hover{
+    background-position: right top;
+    transition: all 0s linear;
+}
 header {
     width: 100%;
     height: auto;

@@ -25,6 +25,16 @@ $(function () {
         var coreMa = $(".core-ma").offset().top - $(".core-ma").height() / 2;
         var baiduMap = $(".baidu-map").offset().top - $(".baidu-map").height() / 1.6;
         var foo = $(".baidu-map").offset().top - $(".baidu-map").height() / 2.6;
+        /*回到顶部*/
+        $(".backTop").click(function () {
+            $("body,html").stop().animate({"scrollTop": 0}, 600);
+        });
+        if (top >= mySlide) {
+            $(".backTop").show();
+        } else{
+            $(".backTop").hide();
+        }
+        //页面加载效果
         if (top >= mySlide) {
             $(".car-ani").removeClass("car-ani").css("transition", "all 0.4s linear");
         }
