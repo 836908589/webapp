@@ -21,7 +21,6 @@ function reH() {
             "precisely what the customer wants.");
     }
 }
-
 $(document).ready(function () {
     $(window).scroll(function () {
         var top = $(window).scrollTop();//获取当前位置离页面顶部的距离
@@ -107,16 +106,14 @@ $(document).ready(function () {
             $(".backTop").click(function () {
                 $("body,html").stop().animate({"scrollTop": 0}, 600);
             });
-            if (sollTop>sec_Top) {
+            if (sollTop > sec_Top) {
                 $(".backTop").show();
-            }else{
-             $(".backTop").hide();
-             }
+            } else {
+                $(".backTop").hide();
+            }
         }
 
-
         Top();
-
     });
 
 });

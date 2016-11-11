@@ -2,7 +2,7 @@
  * Created by ThinkPad User on 2016/11/4.
  */
 $(function () {
-/*headAni()头部交互效果*/
+    /*headAni()头部交互效果*/
     function headAni(className, setTime) {
         var cName = className;
         cName = cName.substr(1);
@@ -16,8 +16,6 @@ $(function () {
     headAni(".hp-ani", 800);
     headAni(".btn-maTop", 1100);
     headAni(".btn-top", 1400);
-
-
     $(window).scroll(function () {
         var top = $(window).scrollTop();//获取当前位置离页面顶部的距离
         var mySlide = $(".my-slide").offset().top - $(".my-slide").height() / 2;//获取元素离页面顶部的距离;
@@ -31,7 +29,7 @@ $(function () {
         });
         if (top >= mySlide) {
             $(".backTop").show();
-        } else{
+        } else {
             $(".backTop").hide();
         }
         //页面加载效果
@@ -42,7 +40,7 @@ $(function () {
             $(".team-ani").removeClass("team-ani").css("transition", "all 1s linear");
             setInterval(function () {
                 $(".team-text").removeClass("team-text").css("transition", "all 1s linear");
-            },300)
+            }, 300)
         }
         if (top >= coreMa) {
             headAni(".ani-topw", 300);
@@ -58,17 +56,9 @@ $(function () {
 
         }
     });
-
-
-
     baiduMap();
-
-
-
 });
-
-
-$(window).resize(function () {
-    var winW = $(window).width();
-    console.log(winW);
-});
+/*$(window).resize(function () {
+ var winW = $(window).width();
+ console.log(winW);
+ });*/
