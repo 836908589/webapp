@@ -24,12 +24,9 @@ body{
 
 }
 
-.red {
-    border: 1px solid red;
-}
-
 .out_container {
     width: 80%;
+    max-width: 960px;
     margin: auto;
     /*border: 2px solid #333333;*/
 }
@@ -39,7 +36,7 @@ body{
     max-width: 960px;
     height: auto;
     margin: auto;
-    margin-top: 10%;
+    margin-top: 15%;
     margin-bottom: 10%;
 }
 
