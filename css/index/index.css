@@ -4,6 +4,11 @@
     font-size: 12px;
     font-weight: 500;
     font-family: "微软雅黑";
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear ;
+    -ms-transition: all 0.3s linear ;
+    -o-transition: all 0.3s linear ;
+    transition: all 0.3s linear ;
 
 }
 body{
@@ -26,7 +31,6 @@ body{
 
 .out_container {
     width: 80%;
-    max-width: 960px;
     margin: auto;
     /*border: 2px solid #333333;*/
 }
@@ -36,7 +40,7 @@ body{
     max-width: 960px;
     height: auto;
     margin: auto;
-    margin-top: 15%;
+    margin-top: 14%;
     margin-bottom: 10%;
 }
 
