@@ -36,6 +36,7 @@ body{
 
 .container_auto {
     width: 75.78%;
+    max-width: 960px;
     height: auto;
     margin: auto;
     margin-top: 10%;
@@ -44,6 +45,7 @@ body{
 
 .container {
     width: 100%;
+    max-width: 960px;
     height: auto;
     margin: auto;
     display: inline-block;
