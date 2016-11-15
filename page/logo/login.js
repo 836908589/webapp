@@ -51,8 +51,7 @@ function loginAction() {
                     window.location.href="../../index.html";
                 } else {
                     console.log("登陆成功！");
-                }
-                ;
+                };
 
             },
             error: function () {
@@ -61,44 +60,5 @@ function loginAction() {
         }
     )
 }
-
-
-
-/*window.onload = function(){
-
- //首先获得body中的3个input元素
- var msg = document.getElementById("userName");
- var getData = document.getElementById("getData");
- var setData = document.getElementById("setData");
-
- setData.onclick = function()//存入数据
- {
- if(msg.value)
- {
- localStorage.setItem("data", msg.value);
- alert("信息已保存到data字段中");
- }
- else
- {
- alert("信息不能为空");
- }
- }
-
- getData.onclick = function()//获取数据
- {
- var msg = localStorage.getItem("data");
- if(msg)
- {
- alert("data字段中的值为：" + msg);
- }
- else
- {
- alert("data字段无值！");
- }
- }
- }
- */   /*<input id="msg" type="text"/>
- <input id="setData" type="button" value="保存数据"/>
- <input id="getData" type="button" value="获取数据"/>*/
 
 
