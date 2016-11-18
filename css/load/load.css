@@ -4,7 +4,7 @@
 }
 
 .load_contact {
-    position: absolute;
+    position: fixed;
     width: 60px;
     height: 60px;
     top: 50%;
@@ -21,8 +21,6 @@
     top: 0px;
     background: green;
     animation: load 1s infinite ease-in-out;
-
-
 }
 
 @keyframes load {
@@ -50,4 +48,3 @@
         transform: perspective(900px) rotateX(-180deg) rotateY(-179.9deg);
     }
 }
-

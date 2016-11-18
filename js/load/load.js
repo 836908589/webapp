@@ -1,7 +1,7 @@
 /**
  * Created by ThinkPad User on 2016/10/28.
  */
-var myurl=["../page/kursenko/home.html","../page/wish/wish.html","http://www.sczyz.org.cn/zmjh","../page/logo/login.html"];
+var myurl = ["../page/kursenko/home.html", "../page/wish/wish.html", "http://www.sczyz.org.cn/zmjh", "../page/logo/login.html"];
 function myDelay(url) {
     /*动画执行3s后消失*/
     setTimeout(function () {
@@ -19,14 +19,12 @@ $(function () {
 // console.log(typeof url.substr(6))
     if (pageName == "kursenko") {
         myDelay(myurl[0]);
-    }else if(pageName == "wish"){
+    } else if (pageName == "wish") {
         myDelay(myurl[1]);
-    }else if(pageName == "zmjh"){
+    } else if (pageName == "zmjh") {
         myDelay(myurl[2]);
-    }else if(pageName == "wishLogo"){
+    } else if (pageName == "wishLogo") {
         myDelay(myurl[3]);
     }
-})
-
-
+});
 
